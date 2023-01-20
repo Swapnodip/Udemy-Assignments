@@ -1,0 +1,25 @@
+.box {
+    padding: 5px 10px 15px 20px;
+
+    border: 2px solid black;
+
+    margin: 5px 10px 15px 20px;
+
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#first-box {
+    display: none;
+}
+
+div:last-of-type:hover {
+    background-color: lightgray;
+}
